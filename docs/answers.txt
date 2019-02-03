@@ -1,0 +1,37 @@
+E
+
+a)  Enumerating objects: 7, done.
+    Counting objects: 100% (7/7), done.
+    Delta compression using up to 4 threads
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (4/4), 446 bytes | 446.00 KiB/s, done.
+    Total 4 (delta 1), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+    To https://github.com/Mistilien/Assignment1.git
+       4f4780b..c9ead9f  master -> master
+
+b) 5 commits have been done so far. The command "git shortlog" was used.
+
+c) The file was last modified Thu Jan 10 16:45:38 2019. The command "git log .gitignore" was used.
+
+d) Allows you to write code independent of your main branch like a feature until completion and then you can merge it.
+   They are also used when you want to fix a bug in your main branch without actually making changes to it until your fix is complete and you merge.
+
+e) git status lets you see which file changes were staged or not while git log displays all the commits that have been done.
+
+f) "git log Weapon.h"
+
+g) git log --grep "file"
+
+h) Inheritance is where you create child class that derives all the functions and data variables of a parent class and can implement their own personal data members.
+   Polymorphism is you have a parent class with basic abstract data function and each of its children have a different version of that function.
+  Encapsulation is where you have all related data variables and functions wrapped together in a single unit like a class. In such a class, private members can't be accessed by anything outside.
+
+i) In a “Integration management” workflow each developer has a public repository that they can push to which an integration can pull from, resolve issues, and push to a centralized repository.
+   Whereas in a Dictator and Lieutenants workflow each developer pushes to a Lieutenant's repository where issues are resolved and merges take place. The result is then pushed to the dictator where another round of issues are resolved and merges take place before finally pushing it to a central repository.
+   The main difference is that an integration manager will pull changes whereas changes are pushed to a dictator before being pushed to a central repository.
+
+j) a Dictator and Lieutenants workflow would be more beneficial because there are less chances for error because each individual's pushes are checked for issues and merged by
+   Lieutenants and the result is then pushed to a dictator where it's further checked for issues and merged before being pushed to a central repository. On the other hand using
+    a centralized repository would get hectic because everyone can pull and push to the central repository at anytime leading errors like working on code based off a past instance
+    of the repository when it has already been updated. 
