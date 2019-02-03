@@ -1,5 +1,5 @@
 /*
- * File:   SimpleHammer.h
+ * File:   SimpleHammer.cpp
  * Author: Wilgens <wilgens21@gmail.com>
  *
  * Created on February 3, 2019, 6:00 PM
@@ -7,7 +7,7 @@
 
 #include "SimpleHammer.h"
 
-double CommonSpear::hit(double armor)
+double SimpleHammer::hit(double armor)
 {
   double damage = hitPoints - armor;
 
