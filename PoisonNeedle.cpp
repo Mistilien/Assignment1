@@ -18,7 +18,7 @@ double PoisonNeedle::hit(double armor)
 
   if(armor < 5)
     return 99.0;
-  if else(damage < 0)
+  else if(damage < 0)
     return 0;
 
     return damage;
