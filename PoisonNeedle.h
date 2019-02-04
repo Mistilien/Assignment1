@@ -12,14 +12,14 @@
 #define POISONNEEDLE_H
 
 /**
- * Defines the behavior of a Poison needle (hitpoint = 0, If the armor is 0, the needle will instead deal 99 hitpoints.
+ * Defines the behavior of a Poison needle (hitpoint = 1, If the armor is less than 5, the needle will instead deal 99 hitpoints.
 )
  */
 
  class PoisonNeedle: public Weapon
  {
     public:
-      PoisonNeedle() : Weapon("Poison Needle",0) //Calls Weapon(name, hitpoints) constructor with values Poison Needle and 0
+      PoisonNeedle() : Weapon("Poison Needle",1) //Calls Weapon(name, hitpoints) constructor with values Poison Needle and 0
       {
       }
 
