@@ -27,6 +27,8 @@
 
       virtual double hit(double armor);
 
+      double hit();
+
  };
 
  #endif /* POISONNEEDLE_H */
