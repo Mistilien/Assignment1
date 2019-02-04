@@ -17,8 +17,8 @@ double CrazyRandomSword::hit(double armor)
   int ignoreArmor = (rand() % 99) + 2;
 
   if(armor/3 < 2)
-    while(ignoreArmor > armor)
-      ignoreArmor = (rand() % 99) + 2;
+  while(ignoreArmor > armor)
+    ignoreArmor = (rand() % 99) + 2;
 
   else
     while(ignoreArmor > (armor/3))
@@ -31,4 +31,13 @@ double CrazyRandomSword::hit(double armor)
     return 0;
 
     return damage;
+}
+
+
+double CrazyRandomSword::hit()
+{
+  srand(time(0));
+
+  hitPoints = (rand() % 94) + 7;
+    return hitPoints;
 }
