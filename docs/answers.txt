@@ -34,4 +34,8 @@ i) In a “Integration management” workflow each developer has a public reposi
 j) a Dictator and Lieutenants workflow would be more beneficial because there are less chances for error because each individual's pushes are checked for issues and merged by
    Lieutenants and the result is then pushed to a dictator where it's further checked for issues and merged before being pushed to a central repository. On the other hand using
     a centralized repository would get hectic because everyone can pull and push to the central repository at anytime leading errors like working on code based off a past instance
-    of the repository when it has already been updated. 
+    of the repository when it has already been updated.
+
+
+5) This prototype has used both polymorphism and encapsulation. Weapon.h has a virtual function called hit with one parameter which is inherited by all the different weapon classes, each having their own version of the function that give different results.
+    Encapsulation properly used in WeaponFactory.h where it has both public data members and private member variables that are only accessible to members within the class.
