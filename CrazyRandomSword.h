@@ -22,9 +22,10 @@
       {
       }
 
-//      virtual ~CrazyRandomSword() {};
+     virtual ~CrazyRandomSword() {};
 
       virtual double hit(double armor);
+      double hit();
 
  };
 
