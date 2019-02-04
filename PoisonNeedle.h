@@ -12,7 +12,7 @@
 #define POISONNEEDLE_H
 
 /**
- * Defines the behavior of a Poison needle (hitpoint = 0, If the armor is 0, the needle will instead deal 75 hitpoints.
+ * Defines the behavior of a Poison needle (hitpoint = 0, If the armor is 0, the needle will instead deal 99 hitpoints.
 )
  */
 
