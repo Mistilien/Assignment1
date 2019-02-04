@@ -23,3 +23,8 @@ double PoisonNeedle::hit(double armor)
 
     return damage;
 }
+
+double PoisonNeedle::hit()
+{
+    return 99.0;
+}
